@@ -1,6 +1,6 @@
 import React from 'react'
 import example from './Graphics_Images/video.jpg'
-import Footer from '../Footer'
+
 function Video() {
   return (
     <div className='Videoboxes'>
