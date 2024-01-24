@@ -1,0 +1,439 @@
+.Aboutpage{
+    background-color: rgb(247 247 247);
+}
+.Aboutpagediv{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.Aboutpagediv h2{
+   
+    margin: 0;
+    color: #bf7533;
+}
+.Aboutpagediv h3{
+    margin-bottom: 5px;
+}
+.Aboutpage p{
+    font-size: large;
+    padding-left: 7%;
+    padding-right: 7%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.boxesabout #box{
+    display:inline-block;
+    
+    /*border-radius: 10px  ;*/
+    margin: 20px;
+    width: 25%;
+    height: 300px;
+    border-style: solid;
+    border-width: 0rem;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px 0px #c5c2c2;
+    background-color: #fdfdfd;
+   
+        padding: 20px;
+    }
+    .boxesabout #box div img{
+        width: 100%;
+        height: 100%;
+    }
+    .boxesabout #box #imgbox{
+        width: 100%;
+        height: 60%;
+    }
+    .boxesabout #box #boxtext{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 0;
+    }
+    .boxesabout #box h3{
+       font-size: 15px;
+        margin: 0;
+    }
+    .boxesabout #box h4{
+        font-size:12px;
+        margin: 0;
+    }
+.boxesabout{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+
+
+/*Services css */
+
+#boxes{
+        padding: 50px;
+        margin: 2%;
+        width: 20%;
+        height: 100%;
+        border-style: solid;
+        border-width: 0rem;
+        border-radius: 15px;
+        box-shadow: 3px 3px 10px 0px #c5c2c2;
+        background-color: #fdfdfd;
+}
+#boxes h3{
+    display: flex;
+   margin: 0;
+   justify-content: center;
+}
+#boxes img{
+   
+    width: 100%;
+    height: 100%;
+    
+}
+.services h1{
+    display: flex;
+    justify-content: center;
+}
+.services{
+    margin-left: 5%;
+}
+.boxesservices{
+    display: flex;
+    flex-wrap: wrap;
+}
+.HomeLink{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+}
+.HomeLink h3{
+    margin: 0;
+    margin-right: 20px;
+}
+.HomeLink a{
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+}
+/* Works css */
+
+.workstitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.workstitle h2{
+    margin: 0;
+    color: #bf7533;
+}
+.workstitle h1{
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.navWorks{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    list-style: none;
+  
+}
+.navWorks a{
+    text-decoration: none;
+  font-size:medium;
+  color: black;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-right: 25px;
+  color: #1f1e1e;
+}
+.navWorks a:hover{
+    background: #F6F9FE;
+    color: #174ea6;
+    transition-duration: 1.2s;
+}
+
+a#graphics.active::after{
+    content: '';
+    background-color: #ffc600;
+    min-width:  137px;
+    height: 3px;
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -134px;
+    
+}
+a#web.active::after{
+    content: '';
+    background-color: #ffc600;
+    min-width: 154px;
+    height: 3px;
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -151px;
+}
+a#video.active::after{
+    content: '';
+    background-color: #ffc600;
+    min-width: 96px;
+    height: 3px;
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -93px;
+}
+@keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(-20px);
+      -ms-transform: translateX(-20px);
+      transform: translateX(-20px);
+    }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+  
+  .fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+  }
+  @media (max-width:650px){
+    .navWorks{
+        margin-left: 20px;
+    }
+  }
+  /* Graphics Designing works */
+  .GraphicWorksboxes{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .GraphicWorksboxes #box img{
+    width: 100%;
+    height: 100%; 
+    
+
+}
+.GraphicWorksboxes #box {
+    margin: 2%;
+    width: 45%;
+    height: 100%;
+    border-style: solid;
+    border-width: 0rem;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px 0px #c5c2c2;
+    background-color: #fdfdfd;
+}
+/* Website development works */
+.Webboxes{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.Webboxes #box{
+    margin: 2%;
+    width: 45%;
+    height: 100%;
+    border-style: solid;
+    border-width: 0rem;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px 0px #c5c2c2;
+    background-color: #fdfdfd;
+}
+.Webboxes #box img{
+    width: 100%;
+    height: 100%; 
+    
+
+}
+/* Video Editing works */
+.Videoboxes{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.Videoboxes #box{
+    margin: 2%;
+    width: 45%;
+    height: 100%;
+    border-style: solid;
+    border-width: 0rem;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px 0px #c5c2c2;
+    background-color: #fdfdfd;
+}
+.Videoboxes #box img{
+    width: 100%;
+    height: 100%; 
+}
+/* Button CSS */
+.button-17 {
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    will-change: transform,opacity;
+    z-index: 0;
+  }
+  .button-17:hover {
+    background: #F6F9FE;
+    color: #174ea6;
+  }
+  
+  .button-17:active {
+    box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+    outline: none;
+  }
+  
+  .button-17:focus {
+    outline: none;
+    border: 2px solid #4285f4;
+  }
+  
+  .button-17:not(:disabled) {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+  }
+  
+  .button-17:not(:disabled):hover {
+    box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+  }
+  
+  .button-17:not(:disabled):focus {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+  }
+  
+  .button-17:not(:disabled):active {
+    box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+  }
+  
+  .button-17:disabled {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+  }
+@media (max-width:650px){
+    .boxesabout #box{
+        display: inline-block;
+        /* border-radius: 10px; */
+        margin: 10px;
+        width: 40%;
+        height: 250px;
+        border-style: solid;
+        border-width: 0rem;
+        border-radius: 15px;
+        box-shadow: 3px 3px 10px 0px #c5c2c2;
+        background-color: #fdfdfd;
+        
+    }
+    .boxesabout{
+        width:100%;
+        margin-left: 3%;
+    }
+    #boxtext h3{
+        font-size: 11px;
+    }
+    #boxtext h4{
+        font-size: 9px;
+    }
+    #boxes{
+        width: 15%;
+    }
+    a#graphics.active::after{
+        content: '';
+        background-color: #ffc600;
+        min-width:  80px;
+        height: 3px;
+        animation-name: fadeInLeft;
+        animation-duration: 1s;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: -73px;
+        
+    }
+    a#web.active::after{
+        content: '';
+        background-color: #ffc600;
+        min-width: 110px;
+        height: 3px;
+        animation-name: fadeInLeft;
+        animation-duration: 1s;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: -101px;
+    }
+    a#video.active::after{
+        content: '';
+        background-color: #ffc600;
+        min-width: 65px;
+        height: 3px;
+        animation-name: fadeInLeft;
+        animation-duration: 1s;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: -55px;
+    }
+}
+.contactpage{
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+}
+.imgcontact{
+    width: 70%;
+    height:50%;
+}
+.imgcontact img{
+    width:80%;
+    height: 50%;
+}
+.contactinfo #boxes{
+    width: 300px;
+    height: 500px;
+    justify-content: center;
+    
+}
+.contactinfo #boxes div{
+   display: flex;
+}
+.contactinfo #boxes div p{
+    margin-right: 10px;
+}
+.contactinfo{
+     margin-left: 20px;
+    align-items: center;
+}

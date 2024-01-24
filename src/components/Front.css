@@ -1,0 +1,227 @@
+.navclass{
+    list-style: none;
+    display: flex;
+    margin-right: 2%;
+   
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 6px 7px 12px 0px rgb(205 205 205);
+    
+}
+.navclass  > a{
+    padding:10px;
+   
+}
+.navclass  a{
+    text-decoration: none;
+  font-size:small;
+  color: black;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-right: 15px;
+}
+.navclass a:hover{
+    color: rgb(230, 123, 2);
+    transition: 1s;
+}
+a#home.active::after{
+    content: '';
+    background-color: #ffc600;
+    min-width: 40px;
+    height: 2px;
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+    position: absolute;
+}
+a#portfolio.active::after{
+    content: '';
+    background-color: #ffc600;
+    min-width: 45px;
+    height: 2px;
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+    position: absolute;
+}
+a#contact.active::after{
+    content: '';
+    background-color: #ffc600;
+    min-width: 78px;
+    height: 2px;
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+    position: absolute;
+}
+a#services.active::after{
+    content: '';
+    background-color: #ffc600;
+    min-width: 57px;
+    height: 2px;
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+    position: absolute;
+}
+a#about.active::after{
+    content: '';
+    background-color: #ffc600;
+    min-width: 43px;
+    height: 2px;
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+    position: absolute;
+}
+@keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(-20px);
+      -ms-transform: translateX(-20px);
+      transform: translateX(-20px);
+    }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+  
+  .fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+  }
+  .headdiv{
+    display: flex;
+    margin-left: 2%;
+    justify-content: space-between;
+   
+  }
+  .likelogo{
+    display: flex;
+  }
+  .likelogo #first{
+    margin-right: 10px;
+  }
+  .likelogo #second{
+    color: rgb(199, 106, 0);
+    margin:0;
+  }
+.menu{
+  display: none;
+}
+.menuicon{
+  display: none;
+}
+.menu2{
+  display: none;
+}
+.navclass2{
+  display: none;
+}
+  @media (max-width: 650px)  {
+    .header{
+      display: flex;
+      justify-content: space-between;
+    }
+    .menu2{
+      display: none;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        width: 135px;
+        height: 135px;
+        align-items: baseline;
+        animation-name: fadeInDown;
+        animation-duration: 1.5s;
+        margin-left: 15px;
+       padding: 0;
+      margin-top:0px ;
+       }
+       .menu a{
+        list-style: none;
+        text-decoration: none;
+        font-size:small;
+        color: black;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 10px;
+       }
+       .menu a:hover{
+        color: rgb(230, 123, 2);
+        transition: 1s;
+       }
+       .menuicon{
+        display: flex;
+         background-color: #ffffff;
+         cursor: pointer;
+         border: none;
+         border-style: none;
+        margin-bottom: 5px;
+       }
+       .navclass{
+        display: none;
+       }
+       .headdiv{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+       }
+       .likelogo {
+        display: flex;
+        justify-content: center;
+       }
+       .likelogo::before{
+        content: '';
+        background-color: #dbdbd8;
+        min-width: 100%;
+        height: 0.3px;
+        animation-name: fadeInLeft;
+        animation-duration: 1s;
+        position: absolute;
+        margin: 54px;
+    }
+       .headdiv #first{
+        margin-right: 10px;
+      
+      }
+      .headdiv #second{
+        color: rgb(199, 106, 0);
+      
+      }
+      
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+}
