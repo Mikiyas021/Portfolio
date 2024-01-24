@@ -3,7 +3,7 @@ import './About.css'
 import intern from './images/intern.png';
 import Graduated from './images/graduate.png';
 import logo from './images/micky_logo.png';
-import Footer from './Footer';
+
 
 
 function About() {
