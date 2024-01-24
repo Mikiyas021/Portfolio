@@ -1,5 +1,4 @@
 import './Maincontent.css'
-import personal from './images/personal.JPG';
 import personal2 from './images/personal3.svg';
 
 function Maincontent(){
