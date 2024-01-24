@@ -131,7 +131,7 @@ a#about.active::after{
         display: flex;
         flex-direction: column;
         width: 135px;
-        height: 135px;
+        height: 160px;
         align-items: baseline;
         animation-name: fadeInDown;
         animation-duration: 1.5s;
