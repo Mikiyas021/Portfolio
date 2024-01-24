@@ -189,6 +189,9 @@ a#about.active::after{
         color: rgb(199, 106, 0);
       
       }
+      #boxes h3 {
+    font-size: 12px;
+}
       
 @-webkit-keyframes fadeInDown {
   0% {
