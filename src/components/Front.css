@@ -179,7 +179,7 @@ a#about.active::after{
         animation-name: fadeInLeft;
         animation-duration: 1s;
         position: absolute;
-        margin: 54px;
+        margin-top: 34px
     }
        .headdiv #first{
         margin-right: 10px;
