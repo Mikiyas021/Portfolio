@@ -7,7 +7,7 @@ function Contact() {
     <div>
     <div className='contactpage'>
         <div className='imgcontact'>
-          <img src={contact}></img>
+          <img src={contact} alt="Contact us"></img>
         </div>
         <div className='contactinfo'>
             <div id='boxes'>
