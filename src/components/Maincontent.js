@@ -10,7 +10,7 @@ function Maincontent(){
             <h3>Graphics designer | Video editor | Full Stack website developer</h3>
         </div>
         <div className='picdiv'>
-         <img src={personal2}></img>
+         <img src={personal2} alt="Picture"></img>
         </div>
   
 </div>
