@@ -1,6 +1,6 @@
 import React from 'react'
 import example from './Graphics_Images/web_dev.jpg'
-import Footer from '../Footer'
+
 function Web() {
   return (
     <div className='Webboxes'>
