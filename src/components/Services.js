@@ -3,7 +3,7 @@ import design from './images/design.png';
 import video from './images/Videos.png';
 import web from './images/web.png';
 import { NavLink} from 'react-router-dom';
-import Footer from './Footer';
+
 
 function Services() {
   return (
