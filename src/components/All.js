@@ -16,7 +16,7 @@ function All() {
     <div>
         <nav  className="header">
         <div className='headdiv'>
-        <div className='likelogo'><h2 id='first'>Personal</h2><h2 id='second'>Portfolio</h2></div><div className='menuicon'><button onClick={toggleMenu} id='menuicon'>Menu</button></div>
+        <div className='likelogo'><h2 id='first'>Personal</h2><h2 id='second'>Portfolio</h2></div><div className='menuicon'><button onClick={toggleMenu} id='menuicon'><i class="fa-solid fa-bars"></i></button></div>
       </div>
       
        <ul className={showMenu? 'navclass' : 'menu2'}> 
