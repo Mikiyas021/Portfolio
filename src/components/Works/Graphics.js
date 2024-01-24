@@ -5,7 +5,6 @@ import coffee from './Graphics_Images/Coffee_house_mock.png';
 import barbar from './Graphics_Images/Gofere_barber_mockup.png';
 import biruk from './Graphics_Images/Biruk_maintainance_mockup.jpg';
 import resume from './Graphics_Images/Clean Simple Creative Designer Resume Template.jpg'
-import Footer from '../Footer';
 function Graphics() {
   return (
     <div className='GraphicWorksboxes'>
