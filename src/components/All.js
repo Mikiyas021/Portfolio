@@ -3,8 +3,6 @@ import { Link, Routes,Route, NavLink } from 'react-router-dom';
 import './Front.css';
 import About from './About';
 import Contact from './Contact.js';
-import {faBars} from '@fortawesome/free-solid-svg-icons';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import Home from './Home.js';
 import Services from './Services.js';
 import Works from './Works.js';
@@ -18,7 +16,7 @@ function All() {
     <div>
         <nav  className="header">
         <div className='headdiv'>
-        <div className='likelogo'><h2 id='first'>Personal</h2><h2 id='second'>Portfolio</h2></div><div className='menuicon'><button onClick={toggleMenu} id='menuicon'><FontAwesomeIcon icon={faBars} /></button></div>
+        <div className='likelogo'><h2 id='first'>Personal</h2><h2 id='second'>Portfolio</h2></div><div className='menuicon'><button onClick={toggleMenu} id='menuicon'>Menu</button></div>
       </div>
       
        <ul className={showMenu? 'navclass' : 'menu2'}> 
