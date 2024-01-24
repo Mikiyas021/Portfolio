@@ -3,7 +3,7 @@ import { NavLink, Route, Routes } from 'react-router-dom'
 import Graphics from './Works/Graphics'
 import Web from './Works/Web'
 import Video from './Works/Video'
-import Footer from './Footer'
+
 
 function Works() {
   return (
